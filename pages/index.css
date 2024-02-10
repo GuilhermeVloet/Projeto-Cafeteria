@@ -1,10 +1,15 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  /*align-items: center;*/
-  /*font-family: "Noto Serif", "Times New Roman", sans-serif;*/
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+  background: url(/images/inside_coffee_shop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
