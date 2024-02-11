@@ -8,8 +8,124 @@
 }
 
 .header {
+  justify-content: space-between;
   background-color: #ffffff;
-  background: url(/images/inside_coffee_shop.png);
+  background-image: url(/images/background_header.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  right: 30px;
+}
+
+.nav__links {
+  list-style: none;
+  justify-content: flex-end;
+  column-gap: 20px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__link {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__title {
+  max-width: 729px;
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__title_span {
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  display: block;
+  margin-top: 183px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  max-width: 683px;
+  margin: 0;
+  position: relative;
+  top: 28px;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  border: 30px;
+}
+
+.header__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header__link {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+  padding: 0;
+}
+
+.header__address {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  z-index: 1;
+}
+
+.header__link-list {
+  list-style: none;
 }
