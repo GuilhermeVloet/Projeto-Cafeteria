@@ -8,19 +8,16 @@
 }
 
 .header {
-  justify-content: space-between;
   background-color: #ffffff;
   background-image: url(/images/background_header.svg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   position: relative;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 40px;
 }
 
 .nav {
@@ -33,15 +30,14 @@
   height: 39px;
   position: relative;
   right: 30px;
+  top: 30px;
 }
 
 .nav__links {
-  justify-content: flex-end;
   column-gap: 20px;
   padding: 0;
-  margin: 0;
+  margin: 30px 80px 0 0;
   display: flex;
-  flex-direction: row;
   list-style-type: none;
 }
 
@@ -57,19 +53,18 @@
 
 .header__title {
   max-width: 729px;
-  margin: 0;
+  margin: 183px 0 28px 80px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
-.header__title_span {
+.header-span {
   font-family: "Noto Serif", "Times New Roman", sans-serif;
   display: block;
-  margin-top: 183px;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -80,12 +75,12 @@
 .header__description {
   max-width: 683px;
   margin: 0;
-  top: 28px;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 80px;
 }
 
 .header__image {
@@ -94,19 +89,14 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  border: 30px;
 }
 
 .header__footer {
-  margin: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
+  margin: 0px 80px 40px;
+  margin-top: auto;
 }
 
-.header__link {
+.header__paragraph {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -128,23 +118,17 @@
   z-index: 1;
 }
 
-.header__link-list {
-  list-style: none;
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 .recipes {
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-  padding: 30px 80px 40px;
   background-image: url(/images/background_recipes.svg);
   background-color: #0a2750;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
+  background-position: center;
 }
 
 .recipes__title {
@@ -156,6 +140,7 @@
   line-height: 52px;
   color: #ffffff;
   margin: 0;
+  padding: 100px 0 24px 80px;
 }
 
 .recipes__subtitle {
@@ -166,16 +151,19 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  margin: 0;
+  margin: 0 0 80px 80px;
 }
 
-.recipes__video-item {
-}
-
-.recipes__iframe {
+.recipes__videos {
   display: flex;
   justify-content: center;
   column-gap: 40px;
+  padding-bottom: 215px;
+}
+
+.recipes__caption {
+  display: flex;
+  justify-content: space-between;
 }
 
 .recipes__video-caption {
