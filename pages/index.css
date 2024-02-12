@@ -178,3 +178,7 @@
   margin: 0;
   margin-top: 24px;
 }
+
+.recipes__iframe {
+  border: 0;
+}
