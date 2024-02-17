@@ -1,3 +1,10 @@
+.form__fieldset {
+  max-width: 385px;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .form__label {
   margin-top: 32px;
 }
@@ -40,6 +47,14 @@
   cursor: pointer;
 }
 
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__button:focus {
+  opacity: 70%;
+}
+
 .form__heading-button {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -47,10 +62,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-}
-
-.form__button:focus {
-  opacity: 70%;
 }
 
 .form__checkbox {
