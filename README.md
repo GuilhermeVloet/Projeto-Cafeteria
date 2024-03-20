@@ -1,5 +1,12 @@
 # The Best Coffee In Brazil Triple
 
-Site onde você pode pedir seu café preferido. Essa página foi desenvolvida com Html & Css...
+## Desfrute da nossa cafeteria onde você pode pedir seu café preferido montando por uma robo automatizado...
 
-## Aperfeiçoamento futuro do site utilizando Js aplicando movimentações em alguns objetos, integração de funcionalidades ao formulário e adicionar uma bloco com opções de cafés estilo carrossel...
+## Task Stack
+
+- HTML5
+- CSS3
+
+## Git-hub link da Page:##
+
+https://guilhermevloet.github.io/Projeto-Cafeteria/
